@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body {
+	background-color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: black;
+}
+
+img {
+	width: 25%;
+	height:auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr { width: 100%; }
+
+td {
+	border: 1px solid white;
+	width: 5.5vw;
+	height: 5.5vw;
+}
+
+td:empty { border : 0; }
+
+.w {
+	display: block;
+	height: 33%;
+	text-align: right;
+	margin-right: 5px;
+	font-size: 0.7vw;
+}
+
+.title {
+	display: block;
+	font-size: 2vw;
+	height: 33%;
+	text-align: center;
+	line-height:100%;
+}
+
+.number {
+	display: block;
+	position: relative;
+	height: 33%;
+	margin-left: 5px;
+}
+
+.number span {
+	position: absolute;
+	bottom: 5px;
+	font-size: 0.7vw;
+}
